@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D1672789C19A26D4D4F2166 /* libPods-WeightLoss.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 092101AB12FB3D249CA40444 /* libPods-WeightLoss.a */; };
+		D769BDBE1EE16DDF002A0252 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D769BDBD1EE16DDF002A0252 /* main.m */; };
+		D769BDC11EE16DDF002A0252 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D769BDC01EE16DDF002A0252 /* AppDelegate.m */; };
+		D769BDC71EE16DDF002A0252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D769BDC51EE16DDF002A0252 /* Main.storyboard */; };
+		D769BDCA1EE16DDF002A0252 /* WeightLoss.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D769BDC81EE16DDF002A0252 /* WeightLoss.xcdatamodeld */; };
+		D769BDCC1EE16DDF002A0252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D769BDCB1EE16DDF002A0252 /* Assets.xcassets */; };
+		D769BDCF1EE16DDF002A0252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D769BDCD1EE16DDF002A0252 /* LaunchScreen.storyboard */; };
+		D7B3517F1EE1BCB000EBEB02 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B3517E1EE1BCB000EBEB02 /* background.png */; };
+		D7B351871EE1C34B00EBEB02 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B351821EE1C34B00EBEB02 /* LoginViewController.m */; };
+		D7B351881EE1C34B00EBEB02 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B351841EE1C34B00EBEB02 /* SignupViewController.m */; };
+		D7B351891EE1C34B00EBEB02 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B351861EE1C34B00EBEB02 /* SplashViewController.m */; };
+		D7B3518B1EE1C78000EBEB02 /* backIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B3518A1EE1C78000EBEB02 /* backIcon.png */; };
+		D7B3518E1EE1DD0400EBEB02 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B3518D1EE1DD0400EBEB02 /* MainViewController.m */; };
+		D7B3519A1EE1F96800EBEB02 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7B351901EE1F96800EBEB02 /* OpenSans-Bold.ttf */; };
+		D7B3519B1EE1F96800EBEB02 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7B351911EE1F96800EBEB02 /* OpenSans-BoldItalic.ttf */; };
+		D7B3519C1EE1F96800EBEB02 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7B351921EE1F96800EBEB02 /* OpenSans-ExtraBold.ttf */; };
+		D7B3519D1EE1F96800EBEB02 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7B351931EE1F96800EBEB02 /* OpenSans-ExtraBoldItalic.ttf */; };
+		D7B3519E1EE1F96800EBEB02 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7B351941EE1F96800EBEB02 /* OpenSans-Italic.ttf */; };
+		D7B3519F1EE1F96800EBEB02 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7B351951EE1F96800EBEB02 /* OpenSans-Light.ttf */; };
+		D7B351A01EE1F96800EBEB02 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7B351961EE1F96800EBEB02 /* OpenSans-LightItalic.ttf */; };
+		D7B351A11EE1F96800EBEB02 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7B351971EE1F96800EBEB02 /* OpenSans-Regular.ttf */; };
+		D7B351A21EE1F96800EBEB02 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7B351981EE1F96800EBEB02 /* OpenSans-Semibold.ttf */; };
+		D7B351A31EE1F96800EBEB02 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7B351991EE1F96800EBEB02 /* OpenSans-SemiboldItalic.ttf */; };
+		D7B351A61EE2067600EBEB02 /* ExercisesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B351A51EE2067600EBEB02 /* ExercisesViewController.m */; };
+		D7B351A91EE2068700EBEB02 /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B351A81EE2068700EBEB02 /* ProgressViewController.m */; };
+		D7B351AC1EE206F600EBEB02 /* BMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B351AB1EE206F600EBEB02 /* BMIViewController.m */; };
+		D7B351B01EE20B1500EBEB02 /* UIView+DCAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B351AF1EE20B1500EBEB02 /* UIView+DCAnimationKit.m */; };
+		D7B351B41EE245E800EBEB02 /* StandardBMIVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B351B31EE245E800EBEB02 /* StandardBMIVC.m */; };
+		D7B351B71EE2460D00EBEB02 /* MetricBMIVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B351B61EE2460D00EBEB02 /* MetricBMIVC.m */; };
+		D7B351B91EE49FFD00EBEB02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7B351B81EE49FFD00EBEB02 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		092101AB12FB3D249CA40444 /* libPods-WeightLoss.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeightLoss.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F4B9E260B11E589C77672F /* Pods-WeightLoss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeightLoss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeightLoss/Pods-WeightLoss.debug.xcconfig"; sourceTree = "<group>"; };
+		D769BDB91EE16DDF002A0252 /* WeightLoss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightLoss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D769BDBD1EE16DDF002A0252 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D769BDBF1EE16DDF002A0252 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D769BDC01EE16DDF002A0252 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D769BDC61EE16DDF002A0252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D769BDC91EE16DDF002A0252 /* WeightLoss.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeightLoss.xcdatamodel; sourceTree = "<group>"; };
+		D769BDCB1EE16DDF002A0252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D769BDCE1EE16DDF002A0252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D769BDD01EE16DDF002A0252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B3517E1EE1BCB000EBEB02 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = images/background.png; sourceTree = "<group>"; };
+		D7B351811EE1C34B00EBEB02 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ViewControllers/LoginViewController.h; sourceTree = "<group>"; };
+		D7B351821EE1C34B00EBEB02 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewControllers/LoginViewController.m; sourceTree = "<group>"; };
+		D7B351831EE1C34B00EBEB02 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupViewController.h; path = ViewControllers/SignupViewController.h; sourceTree = "<group>"; };
+		D7B351841EE1C34B00EBEB02 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupViewController.m; path = ViewControllers/SignupViewController.m; sourceTree = "<group>"; };
+		D7B351851EE1C34B00EBEB02 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SplashViewController.h; path = ViewControllers/SplashViewController.h; sourceTree = "<group>"; };
+		D7B351861EE1C34B00EBEB02 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SplashViewController.m; path = ViewControllers/SplashViewController.m; sourceTree = "<group>"; };
+		D7B3518A1EE1C78000EBEB02 /* backIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backIcon.png; path = images/backIcon.png; sourceTree = "<group>"; };
+		D7B3518C1EE1DD0400EBEB02 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ViewControllers/MainViewController.h; sourceTree = "<group>"; };
+		D7B3518D1EE1DD0400EBEB02 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ViewControllers/MainViewController.m; sourceTree = "<group>"; };
+		D7B351901EE1F96800EBEB02 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		D7B351911EE1F96800EBEB02 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-BoldItalic.ttf"; path = "fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D7B351921EE1F96800EBEB02 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBold.ttf"; path = "fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D7B351931EE1F96800EBEB02 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBoldItalic.ttf"; path = "fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		D7B351941EE1F96800EBEB02 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Italic.ttf"; path = "fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		D7B351951EE1F96800EBEB02 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		D7B351961EE1F96800EBEB02 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-LightItalic.ttf"; path = "fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		D7B351971EE1F96800EBEB02 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		D7B351981EE1F96800EBEB02 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Semibold.ttf"; path = "fonts/OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		D7B351991EE1F96800EBEB02 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-SemiboldItalic.ttf"; path = "fonts/OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		D7B351A41EE2067600EBEB02 /* ExercisesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExercisesViewController.h; path = ViewControllers/ExercisesViewController.h; sourceTree = "<group>"; };
+		D7B351A51EE2067600EBEB02 /* ExercisesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExercisesViewController.m; path = ViewControllers/ExercisesViewController.m; sourceTree = "<group>"; };
+		D7B351A71EE2068700EBEB02 /* ProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressViewController.h; path = ViewControllers/ProgressViewController.h; sourceTree = "<group>"; };
+		D7B351A81EE2068700EBEB02 /* ProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressViewController.m; path = ViewControllers/ProgressViewController.m; sourceTree = "<group>"; };
+		D7B351AA1EE206F600EBEB02 /* BMIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMIViewController.h; path = ViewControllers/BMIViewController.h; sourceTree = "<group>"; };
+		D7B351AB1EE206F600EBEB02 /* BMIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMIViewController.m; path = ViewControllers/BMIViewController.m; sourceTree = "<group>"; };
+		D7B351AE1EE20B1500EBEB02 /* UIView+DCAnimationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+DCAnimationKit.h"; path = "Libraries/UIView+DCAnimationKit.h"; sourceTree = "<group>"; };
+		D7B351AF1EE20B1500EBEB02 /* UIView+DCAnimationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+DCAnimationKit.m"; path = "Libraries/UIView+DCAnimationKit.m"; sourceTree = "<group>"; };
+		D7B351B21EE245E800EBEB02 /* StandardBMIVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StandardBMIVC.h; path = ViewControllers/BMICalculatorSubVCs/StandardBMIVC.h; sourceTree = "<group>"; };
+		D7B351B31EE245E800EBEB02 /* StandardBMIVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StandardBMIVC.m; path = ViewControllers/BMICalculatorSubVCs/StandardBMIVC.m; sourceTree = "<group>"; };
+		D7B351B51EE2460D00EBEB02 /* MetricBMIVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetricBMIVC.h; path = ViewControllers/BMICalculatorSubVCs/MetricBMIVC.h; sourceTree = "<group>"; };
+		D7B351B61EE2460D00EBEB02 /* MetricBMIVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetricBMIVC.m; path = ViewControllers/BMICalculatorSubVCs/MetricBMIVC.m; sourceTree = "<group>"; };
+		D7B351B81EE49FFD00EBEB02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EB0B424E4FBE34598929528D /* Pods-WeightLoss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeightLoss.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeightLoss/Pods-WeightLoss.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D769BDB61EE16DDE002A0252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1672789C19A26D4D4F2166 /* libPods-WeightLoss.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		250E3E3FB761271CE750E7D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				092101AB12FB3D249CA40444 /* libPods-WeightLoss.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A40719093CDA26E401E31832 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79F4B9E260B11E589C77672F /* Pods-WeightLoss.debug.xcconfig */,
+				EB0B424E4FBE34598929528D /* Pods-WeightLoss.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D769BDB01EE16DDE002A0252 = {
+			isa = PBXGroup;
+			children = (
+				D769BDBB1EE16DDF002A0252 /* WeightLoss */,
+				D769BDBA1EE16DDF002A0252 /* Products */,
+				A40719093CDA26E401E31832 /* Pods */,
+				250E3E3FB761271CE750E7D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D769BDBA1EE16DDF002A0252 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D769BDB91EE16DDF002A0252 /* WeightLoss.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D769BDBB1EE16DDF002A0252 /* WeightLoss */ = {
+			isa = PBXGroup;
+			children = (
+				D7B351B81EE49FFD00EBEB02 /* GoogleService-Info.plist */,
+				D7B351AD1EE20B0400EBEB02 /* Libraries */,
+				D7B3518F1EE1F94C00EBEB02 /* fonts */,
+				D7B351801EE1C33D00EBEB02 /* ViewControllers */,
+				D7B3517D1EE1BC8E00EBEB02 /* images */,
+				D769BDBF1EE16DDF002A0252 /* AppDelegate.h */,
+				D769BDC01EE16DDF002A0252 /* AppDelegate.m */,
+				D769BDC51EE16DDF002A0252 /* Main.storyboard */,
+				D769BDCB1EE16DDF002A0252 /* Assets.xcassets */,
+				D769BDCD1EE16DDF002A0252 /* LaunchScreen.storyboard */,
+				D769BDD01EE16DDF002A0252 /* Info.plist */,
+				D769BDC81EE16DDF002A0252 /* WeightLoss.xcdatamodeld */,
+				D769BDBC1EE16DDF002A0252 /* Supporting Files */,
+			);
+			path = WeightLoss;
+			sourceTree = "<group>";
+		};
+		D769BDBC1EE16DDF002A0252 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D769BDBD1EE16DDF002A0252 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7B3517D1EE1BC8E00EBEB02 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D7B3518A1EE1C78000EBEB02 /* backIcon.png */,
+				D7B3517E1EE1BCB000EBEB02 /* background.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		D7B351801EE1C33D00EBEB02 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7B351B11EE245A000EBEB02 /* BMICalculatorSubVCs */,
+				D7B351811EE1C34B00EBEB02 /* LoginViewController.h */,
+				D7B351821EE1C34B00EBEB02 /* LoginViewController.m */,
+				D7B351831EE1C34B00EBEB02 /* SignupViewController.h */,
+				D7B351841EE1C34B00EBEB02 /* SignupViewController.m */,
+				D7B351851EE1C34B00EBEB02 /* SplashViewController.h */,
+				D7B351861EE1C34B00EBEB02 /* SplashViewController.m */,
+				D7B3518C1EE1DD0400EBEB02 /* MainViewController.h */,
+				D7B3518D1EE1DD0400EBEB02 /* MainViewController.m */,
+				D7B351A41EE2067600EBEB02 /* ExercisesViewController.h */,
+				D7B351A51EE2067600EBEB02 /* ExercisesViewController.m */,
+				D7B351A71EE2068700EBEB02 /* ProgressViewController.h */,
+				D7B351A81EE2068700EBEB02 /* ProgressViewController.m */,
+				D7B351AA1EE206F600EBEB02 /* BMIViewController.h */,
+				D7B351AB1EE206F600EBEB02 /* BMIViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D7B3518F1EE1F94C00EBEB02 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D7B351901EE1F96800EBEB02 /* OpenSans-Bold.ttf */,
+				D7B351911EE1F96800EBEB02 /* OpenSans-BoldItalic.ttf */,
+				D7B351921EE1F96800EBEB02 /* OpenSans-ExtraBold.ttf */,
+				D7B351931EE1F96800EBEB02 /* OpenSans-ExtraBoldItalic.ttf */,
+				D7B351941EE1F96800EBEB02 /* OpenSans-Italic.ttf */,
+				D7B351951EE1F96800EBEB02 /* OpenSans-Light.ttf */,
+				D7B351961EE1F96800EBEB02 /* OpenSans-LightItalic.ttf */,
+				D7B351971EE1F96800EBEB02 /* OpenSans-Regular.ttf */,
+				D7B351981EE1F96800EBEB02 /* OpenSans-Semibold.ttf */,
+				D7B351991EE1F96800EBEB02 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		D7B351AD1EE20B0400EBEB02 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				D7B351AE1EE20B1500EBEB02 /* UIView+DCAnimationKit.h */,
+				D7B351AF1EE20B1500EBEB02 /* UIView+DCAnimationKit.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		D7B351B11EE245A000EBEB02 /* BMICalculatorSubVCs */ = {
+			isa = PBXGroup;
+			children = (
+				D7B351B21EE245E800EBEB02 /* StandardBMIVC.h */,
+				D7B351B31EE245E800EBEB02 /* StandardBMIVC.m */,
+				D7B351B51EE2460D00EBEB02 /* MetricBMIVC.h */,
+				D7B351B61EE2460D00EBEB02 /* MetricBMIVC.m */,
+			);
+			name = BMICalculatorSubVCs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D769BDB81EE16DDE002A0252 /* WeightLoss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D769BDD31EE16DDF002A0252 /* Build configuration list for PBXNativeTarget "WeightLoss" */;
+			buildPhases = (
+				C3D1BB374A93758CF469C4AF /* [CP] Check Pods Manifest.lock */,
+				D769BDB51EE16DDE002A0252 /* Sources */,
+				D769BDB61EE16DDE002A0252 /* Frameworks */,
+				D769BDB71EE16DDE002A0252 /* Resources */,
+				E408FAA8F34CA81BC5DEA99D /* [CP] Embed Pods Frameworks */,
+				186F9908E052D9F134ADE60B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeightLoss;
+			productName = WeightLoss;
+			productReference = D769BDB91EE16DDF002A0252 /* WeightLoss.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D769BDB11EE16DDE002A0252 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Dev;
+				TargetAttributes = {
+					D769BDB81EE16DDE002A0252 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D769BDB41EE16DDE002A0252 /* Build configuration list for PBXProject "WeightLoss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D769BDB01EE16DDE002A0252;
+			productRefGroup = D769BDBA1EE16DDF002A0252 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D769BDB81EE16DDE002A0252 /* WeightLoss */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D769BDB71EE16DDE002A0252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D769BDCF1EE16DDF002A0252 /* LaunchScreen.storyboard in Resources */,
+				D7B351A31EE1F96800EBEB02 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				D7B3519D1EE1F96800EBEB02 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				D7B351A01EE1F96800EBEB02 /* OpenSans-LightItalic.ttf in Resources */,
+				D7B3517F1EE1BCB000EBEB02 /* background.png in Resources */,
+				D7B3519E1EE1F96800EBEB02 /* OpenSans-Italic.ttf in Resources */,
+				D7B3519A1EE1F96800EBEB02 /* OpenSans-Bold.ttf in Resources */,
+				D7B3519C1EE1F96800EBEB02 /* OpenSans-ExtraBold.ttf in Resources */,
+				D7B3519B1EE1F96800EBEB02 /* OpenSans-BoldItalic.ttf in Resources */,
+				D7B351B91EE49FFD00EBEB02 /* GoogleService-Info.plist in Resources */,
+				D769BDCC1EE16DDF002A0252 /* Assets.xcassets in Resources */,
+				D7B3518B1EE1C78000EBEB02 /* backIcon.png in Resources */,
+				D7B3519F1EE1F96800EBEB02 /* OpenSans-Light.ttf in Resources */,
+				D7B351A11EE1F96800EBEB02 /* OpenSans-Regular.ttf in Resources */,
+				D7B351A21EE1F96800EBEB02 /* OpenSans-Semibold.ttf in Resources */,
+				D769BDC71EE16DDF002A0252 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		186F9908E052D9F134ADE60B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeightLoss/Pods-WeightLoss-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3D1BB374A93758CF469C4AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E408FAA8F34CA81BC5DEA99D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeightLoss/Pods-WeightLoss-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D769BDB51EE16DDE002A0252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B351B41EE245E800EBEB02 /* StandardBMIVC.m in Sources */,
+				D7B351881EE1C34B00EBEB02 /* SignupViewController.m in Sources */,
+				D7B351A91EE2068700EBEB02 /* ProgressViewController.m in Sources */,
+				D7B351B71EE2460D00EBEB02 /* MetricBMIVC.m in Sources */,
+				D7B351B01EE20B1500EBEB02 /* UIView+DCAnimationKit.m in Sources */,
+				D7B351891EE1C34B00EBEB02 /* SplashViewController.m in Sources */,
+				D7B351AC1EE206F600EBEB02 /* BMIViewController.m in Sources */,
+				D769BDCA1EE16DDF002A0252 /* WeightLoss.xcdatamodeld in Sources */,
+				D7B3518E1EE1DD0400EBEB02 /* MainViewController.m in Sources */,
+				D769BDC11EE16DDF002A0252 /* AppDelegate.m in Sources */,
+				D769BDBE1EE16DDF002A0252 /* main.m in Sources */,
+				D7B351A61EE2067600EBEB02 /* ExercisesViewController.m in Sources */,
+				D7B351871EE1C34B00EBEB02 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D769BDC51EE16DDF002A0252 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D769BDC61EE16DDF002A0252 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D769BDCD1EE16DDF002A0252 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D769BDCE1EE16DDF002A0252 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D769BDD11EE16DDF002A0252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D769BDD21EE16DDF002A0252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D769BDD41EE16DDF002A0252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F4B9E260B11E589C77672F /* Pods-WeightLoss.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeightLoss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weight.loss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D769BDD51EE16DDF002A0252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB0B424E4FBE34598929528D /* Pods-WeightLoss.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeightLoss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weight.loss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D769BDB41EE16DDE002A0252 /* Build configuration list for PBXProject "WeightLoss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D769BDD11EE16DDF002A0252 /* Debug */,
+				D769BDD21EE16DDF002A0252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D769BDD31EE16DDF002A0252 /* Build configuration list for PBXNativeTarget "WeightLoss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D769BDD41EE16DDF002A0252 /* Debug */,
+				D769BDD51EE16DDF002A0252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D769BDC81EE16DDF002A0252 /* WeightLoss.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D769BDC91EE16DDF002A0252 /* WeightLoss.xcdatamodel */,
+			);
+			currentVersion = D769BDC91EE16DDF002A0252 /* WeightLoss.xcdatamodel */;
+			path = WeightLoss.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D769BDB11EE16DDE002A0252 /* Project object */;
+}
